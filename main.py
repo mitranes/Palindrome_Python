@@ -1,3 +1,4 @@
+from Palindrome_String import Palindrome_String
 class Palindrome:
     def __init__(self,x):
         self.x = x
@@ -37,5 +38,10 @@ class Palindrome:
 if __name__ == "__main__":
     p = Palindrome(122112210)
     p.isPalindrome()
+
+    s = Palindrome_String("Ava")
+    s.is_string_palindrome()
+
+
 
 
